@@ -1,0 +1,5 @@
+numpy==1.23.5
+torch==2.4.0+cu124
+gymnasium==0.28.1
+safety-gymnasium==1.0.0
+matplotlib==3.10.6
