@@ -1,0 +1,87 @@
+_wandb:
+    value:
+        cli_version: 0.22.1
+        e:
+            pgvo7y9vxkpz1csriewf0ip7m4zxvhbi:
+                args:
+                    - --start-train
+                codePath: lagrangian_ppo-master\main.py
+                codePathLocal: main.py
+                cpu_count: 16
+                cpu_count_logical: 32
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "592323801088"
+                        used: "471961554944"
+                email: 2676602812@qq.com
+                executable: D:\BIT\学习资料\safe RL\MyCarla\.venv\Scripts\python.exe
+                git:
+                    commit: 6b4716f4178344bb4c089c70237657f5b49c9e2d
+                    remote: https://github.com/silverwingsbot/EasyCarla-RL.git
+                gpu: NVIDIA GeForce RTX 5060 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 3328
+                      memoryTotal: "8546942976"
+                      name: NVIDIA GeForce RTX 5060 Laptop GPU
+                      uuid: GPU-89829250-a8a6-9834-febb-cf149b35335c
+                host: ExplorerX
+                memory:
+                    total: "16425455616"
+                os: Windows-10-10.0.26100-SP0
+                program: D:\BIT\学习资料\safe RL\MyCarla\lagrangian_ppo-master\main.py
+                python: CPython 3.10.11
+                root: D:\BIT\学习资料\safe RL\MyCarla\lagrangian_ppo-master
+                startedAt: "2025-10-06T13:26:23.151743Z"
+                writerId: pgvo7y9vxkpz1csriewf0ip7m4zxvhbi
+        m: []
+        python_version: 3.10.11
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 13
+                - 16
+                - 61
+            "4": 3.10.11
+            "5": 0.22.1
+            "8":
+                - 3
+            "12": 0.22.1
+            "13": windows-amd64
+clip:
+    value: 0.2
+cost_budget:
+    value: 30
+device:
+    value: cpu
+env_name:
+    value: carla-v0
+epochs:
+    value: 10
+horizon:
+    value: 2048
+lr:
+    value: 0.0003
+mini_batch_size:
+    value: 64
+n_iterations:
+    value: 501
+normalize_cost_advs:
+    value: false
+normalize_obs:
+    value: false
+project_name:
+    value: PPO-L-Carla-intersection
+randomize_domain:
+    value: false
+seed:
+    value: 123
+start_train:
+    value: true
+stopping_criterion:
+    value: 900

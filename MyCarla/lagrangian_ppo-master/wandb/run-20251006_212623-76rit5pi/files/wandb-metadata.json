@@ -1,0 +1,43 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.10.11",
+  "startedAt": "2025-10-06T13:26:23.151743Z",
+  "args": [
+    "--start-train"
+  ],
+  "program": "D:\\BIT\\学习资料\\safe RL\\MyCarla\\lagrangian_ppo-master\\main.py",
+  "codePath": "lagrangian_ppo-master\\main.py",
+  "codePathLocal": "main.py",
+  "git": {
+    "remote": "https://github.com/silverwingsbot/EasyCarla-RL.git",
+    "commit": "6b4716f4178344bb4c089c70237657f5b49c9e2d"
+  },
+  "email": "2676602812@qq.com",
+  "root": "D:\\BIT\\学习资料\\safe RL\\MyCarla\\lagrangian_ppo-master",
+  "host": "ExplorerX",
+  "executable": "D:\\BIT\\学习资料\\safe RL\\MyCarla\\.venv\\Scripts\\python.exe",
+  "cpu_count": 16,
+  "cpu_count_logical": 32,
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "592323801088",
+      "used": "471961554944"
+    }
+  },
+  "memory": {
+    "total": "16425455616"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+      "memoryTotal": "8546942976",
+      "cudaCores": 3328,
+      "architecture": "Blackwell",
+      "uuid": "GPU-89829250-a8a6-9834-febb-cf149b35335c"
+    }
+  ],
+  "cudaVersion": "12.8",
+  "writerId": "pgvo7y9vxkpz1csriewf0ip7m4zxvhbi"
+}
